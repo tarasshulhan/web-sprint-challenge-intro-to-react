@@ -17,16 +17,21 @@ const StyledCharacter = styled.div`
   justify-content: space-between;
   margin-left: 10%;
   margin-right 10%;
+  font-size: 2.1rem;
+  background-color: rgba(192, 192, 192, 0.2);
+  padding-left: 3%;
+  padding-right: 3%;
 
   transform: scale(2); //-> start of animation
   opacity: 0; //-> start of animation
   animation: ${kf} 0.4s ease-in-out forwards;
+  
 `
 const StyledName = styled.p`
 
 `
 const StyledAge = styled.p`
-
+  color: white;
 `
 
 const Character = props => {

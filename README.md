@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+    React JS is a user interface component library that allows us to create and modify the UI without manually creating html tags and adding them to the dom. React components are written in JSX which is a 'markup' like syntax for javascript. It is convenient because it allows us to write "markup" directly in the javascript file. Styled components can be used to also write CSS directly in the javascript file.
+
 1. Describe component state.
+
+    A state is an object that lets us store some data that can change over the course of a component's life. A state is usually used to control some behavior of a components. Syntactically it is usually and array of two elements, the state itself, and a function used to update the state.
+
 1. Describe props.
+
+    Props are like the parameters of a React component. They give components the necessary data to be initialized. Unlike state, props can not be changed during the lifetime of the component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+    A side effect is anything that affects something outside of the scope of the current function. Using the && operator it is possible to only initialize a component after an effect has set a certain state.

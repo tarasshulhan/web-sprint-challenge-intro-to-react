@@ -20,8 +20,7 @@ const App = () => {
       <h1 className="Header">Characters</h1>
       {characters && characters.map(char => {
         return <Character name = {char.name} birth_year = {char.birth_year}/>
-      })
-      }
+      })}
     </div>
   );
 }

@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Days One', sans-serif;
+  color: yellow;
+  
 }
 .Header {
-  font-size: 3rem;
-  color: yellow;
-  text-shadow: 1px 1px 5px #fff;
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
